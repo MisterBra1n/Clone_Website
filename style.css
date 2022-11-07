@@ -133,6 +133,7 @@ img {
 
 /*Stats*/
 .stats {
+    color: var(--white);
     padding-top: 100px;
 }
 
