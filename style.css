@@ -2,6 +2,7 @@
 
 :root{
     --green: #86C232;
+    --dgreen: #61892F;
     --grey: #333;
     --white: #fff;
     --gray: #474B4F;
@@ -123,7 +124,16 @@ img {
     bottom: -70px;
     right: 0;
     left: 0;
-    transform: skewY(-3deg);
+    background: var(--dgreen);
+    transform: skewY(-1.8deg);
+    -webkit-transform: skewY(-1.8deg);
+    -moz-transform: skewY(-1.8deg);
+    -ms-transform: skewY(-1.8deg);
+}
+
+/*Stats*/
+.stats {
+    padding-top: 100px;
 }
 
 /* Utilities*/
