@@ -199,3 +199,9 @@ img {
     color: #fff;
     margin: 0 10px;
 }
+
+textarea {
+    resize: none;
+    background-color: var(--gray);
+    color: var(--white);
+ }
